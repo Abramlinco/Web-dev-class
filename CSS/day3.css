@@ -1,0 +1,34 @@
+p{
+    background-color: blue;
+    color: white;
+}
+
+h2{
+    /* color: red;  common color name*/
+    /* color: #ff0000; hex value */
+    /* color: rgb(255, 0, 0); rgb values 0 -255 */
+    color: rgb(0, 255, 94);
+}
+
+/* pixels, px */
+
+div{
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+
+    border: 2px solid black;
+
+    width: 200px;
+    height: 200px;
+
+    /* margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 300px;
+    margin-right: 200px; */
+
+    /* margin: 40px 50px 200px 30px;
+
+    padding: 50px 20px; */
+    border-radius:50% ;
+}

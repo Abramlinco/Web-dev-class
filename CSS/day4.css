@@ -1,0 +1,80 @@
+/* div{
+    background-color: red;
+} */
+
+.one {
+    background-color: green;
+}
+
+/* CSS COMBINATORS */
+
+/* decendant selector (space) */
+/* .container li{
+    color: red;
+} */
+
+/* child selector */
+/* ul > li{
+    color: blue;
+} */
+
+/* adjacent sibling selector (+) */
+/* .first+li{
+    color: yellow;
+} */
+
+/* general sibling selector (~) */
+/* .first~li{
+    color: red;
+} */
+
+/* pseudo class */
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+/* li:last-child{
+   color: red; 
+} */
+
+li:nth-child(2) {
+    color: yellowgreen;
+}
+
+li:nth-child(3) {
+    color: red;
+}
+
+/* display property */
+
+div {
+    border: 2px solid black;
+    /* margin: 10px; */
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    border: 2px solid black;
+    display: inline;
+    margin: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
+}
+.box{
+    display: flex;
+    /* gap: 50px; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: end;
+}
